@@ -17,9 +17,9 @@ function App() {
           </div>
           <div className='link-div'>
 
-            <FontAwesomeIcon className='linkedin' icon={faLinkedin} />
-            <FontAwesomeIcon className='linkedin' icon={faGithub} />
-            <FontAwesomeIcon className='linkedin' icon={faEnvelope} />
+            <FontAwesomeIcon className='linkedin margin-text' icon={faLinkedin} />
+            <FontAwesomeIcon className='linkedin margin-text' icon={faGithub} />
+            <FontAwesomeIcon className='linkedin margin-text' icon={faEnvelope} />
 
           </div>
 
