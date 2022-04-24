@@ -1,46 +1,64 @@
 .app-container{
-  background-color: grey;
+  background-color: #FFEFEF;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
 }
+h1{
+  margin:0;
+}
 
 .profile-container{
-  background-color: white;
+  background-color: #FFEFEF;
   height: 50%;
   width: 80%;
-  border-radius: 30px;
+  border-radius: 10px;
   display: flex;
   overflow: hidden;
 }
 
 .profile-contents-container{
-  background-color: green;
+  background-color: ##D3DEDC;
   height: 100%;
   width: 50%;
 }
 
 .profile-image-container {
-  background-color: blue;
-  height: 100%;
+  background-color: white;
   width: 50%;
+  border: #7C99AC;
+  border-radius: 10px;
+  border-style: dashed;
+  border-radius: 10px;
 }
 
 .name-div{
-  background-color: aliceblue;
+  background-color: #D3DEDC;
+  color: #7C99AC;
   height: 33%;
   width: 100%;
+  border: #7C99AC;
+  border-style: dashed;
+  border-radius: 10px;
 }
 
 .blurb-div {
-  background-color: pink;
+  background-color: #D3DEDC;
+  color: #92A9BD;
   height: 33%;
   width: 100%;
+  border: #7C99AC;
+  border-style: dashed;
+  border-radius: 10px;
 }
 
 .link-div {
-  background-color: blueviolet;
-  height: 34%;
+  background-color: #D3DEDC;
+  color: #FFEFEF;
+  height: 32%;
   width: 100%;
+  border: #7C99AC;
+  border-style: dashed;
+  border-radius: 10px;
 }
