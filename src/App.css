@@ -19,9 +19,10 @@ h1{
 }
 
 .profile-contents-container{
-  background-color: ##D3DEDC;
+  background-color: #D3DEDC;
   height: 100%;
   width: 50%;
+  font-family: PlayfairDisplay;
 }
 
 .profile-image-container {
@@ -34,35 +35,57 @@ h1{
 }
 
 .name-div{
-  background-color: #D3DEDC;
-  font-family: PlayfairDisplay;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: bold;
+  text-align: left;
   color: #7C99AC;
   height: 33%;
   width: 100%;
-  border: #7C99AC;
-  border-style: dashed;
-  border-radius: 10px;
+  /* border: #7C99AC; */
+  /* border-style: dashed; */
+  /* border-radius: 10px; */
+  font-size: 4vw;
+}
+
+.first-name-text{
+  color:#FE7E6D;
 }
 
 .blurb-div {
-  background-color: #D3DEDC;
-  font-family: PlayfairDisplay;
-  font-weight: bold;
   color: #92A9BD;
   height: 33%;
   width: 100%;
-  border: #7C99AC;
-  border-style: dashed;
-  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: #7C99AC; */
+  /* border-style: dashed; */
+  /* border-radius: 10px; */
+  font-size: 3vw;
+  /* font-weight: bold; */
 }
 
 .link-div {
-  background-color: #D3DEDC;
-  font-family: PlayfairDisplay;
   color: #FFEFEF;
   height: 32%;
   width: 100%;
-  border: #7C99AC;
-  border-style: dashed;
-  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* border: #7C99AC;
+  border-style: dashed; */
+  /* border-radius: 10px; */
+}
+
+.linkedin{
+  color: #FE7E6D;
+  height: 30px;
+  width: 30px;
+}
+
+.margin-text {
+  margin-left: 10px;
+  margin-right: 10px;
 }
