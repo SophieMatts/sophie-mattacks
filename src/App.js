@@ -33,22 +33,29 @@ function App() {
           </div>
           <div className='link-div'>
 
-            <FontAwesomeIcon
-              className={`icon margin-text ${hoverLinkedIn ? "fa-beat" : ""}`} icon={faLinkedin}
-              onMouseEnter={toggleLinkedInHover}
-              onMouseLeave={toggleLinkedInHover}
-            />
-            <FontAwesomeIcon
-              className={`icon margin-text ${hoverGitHub ? "fa-beat" : ""}`} icon={faGithub}
-              onMouseEnter={toggleGitHubHover}
-              onMouseLeave={toggleGitHubHover}
-            />
-            <FontAwesomeIcon
-              className={`icon margin-text ${hoverMail ? "fa-beat" : ""}`} icon={faEnvelope}
-              onMouseEnter={toggleMailHover}
-              onMouseLeave={toggleMailHover}
+            <a href="https://www.linkedin.com/in/sophie-mattacks-88501659/">
+              <FontAwesomeIcon
+                className={`icon margin-text ${hoverLinkedIn ? "fa-beat" : ""}`} icon={faLinkedin}
+                onMouseEnter={toggleLinkedInHover}
+                onMouseLeave={toggleLinkedInHover}
+              />
+            </a>
 
-            />
+            <a href="https://github.com/SophieMatts">
+              <FontAwesomeIcon
+                className={`icon margin-text ${hoverGitHub ? "fa-beat" : ""}`} icon={faGithub}
+                onMouseEnter={toggleGitHubHover}
+                onMouseLeave={toggleGitHubHover}
+              />
+            </a>
+
+            <a href="mailto:mail@sophiemattacks.com">
+              <FontAwesomeIcon
+                className={`icon margin-text ${hoverMail ? "fa-beat" : ""}`} icon={faEnvelope}
+                onMouseEnter={toggleMailHover}
+                onMouseLeave={toggleMailHover}
+              />
+            </a>
 
           </div>
 
