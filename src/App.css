@@ -5,33 +5,27 @@
   justify-content: center;
   height: 100vh;
 }
-h1{
-  margin:0;
-}
 
 .profile-container{
-  background-color: #FFEFEF;
+  background-color: #D3DEDC;
   height: 50%;
-  width: 80%;
+  width: 90%;
   border-radius: 10px;
   display: flex;
   overflow: hidden;
 }
 
 .profile-contents-container{
-  background-color: #D3DEDC;
   height: 100%;
   width: 50%;
   font-family: PlayfairDisplay;
 }
 
 .profile-image-container {
-  background-color: white;
   width: 50%;
-  border: #7C99AC;
-  border-radius: 10px;
-  border-style: dashed;
-  border-radius: 10px;
+  display: flex;
+  align-items: end;
+
 }
 
 .name-div{
@@ -43,14 +37,12 @@ h1{
   color: #7C99AC;
   height: 33%;
   width: 100%;
-  /* border: #7C99AC; */
-  /* border-style: dashed; */
-  /* border-radius: 10px; */
   font-size: 4vw;
 }
 
 .first-name-text{
   color:#FE7E6D;
+  font-size: 5vw;
 }
 
 .blurb-div {
@@ -63,7 +55,7 @@ h1{
   /* border: #7C99AC; */
   /* border-style: dashed; */
   /* border-radius: 10px; */
-  font-size: 3vw;
+  font-size: 2.5vw;
   /* font-weight: bold; */
 }
 
@@ -74,9 +66,6 @@ h1{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  /* border: #7C99AC;
-  border-style: dashed; */
-  /* border-radius: 10px; */
 }
 
 .linkedin{
@@ -88,4 +77,11 @@ h1{
 .margin-text {
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.photo{
+  max-height: 95%;
+  width: 100%;
+  object-fit: scale-down;
+  object-position: right;
 }

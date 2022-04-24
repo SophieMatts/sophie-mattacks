@@ -26,7 +26,7 @@ function App() {
 
         </div>
         <div className='profile-image-container'  >
-
+          <img className='photo' src="/sophie.png"></img>
         </div>
 
       </div>
