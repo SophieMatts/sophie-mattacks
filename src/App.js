@@ -2,8 +2,24 @@ import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope, } from '@fortawesome/free-solid-svg-icons'
+import { useState } from 'react';
 
 function App() {
+  const [hoverLinkedIn, setHoverLinkedIn] = useState(false)
+  const toggleLinkedInHover = () => {
+    setHoverLinkedIn(!hoverLinkedIn)
+  }
+
+  const [hoverGitHub, setHoverGitHub] = useState(false)
+  const toggleGitHubHover = () => {
+    setHoverGitHub(!hoverGitHub)
+  }
+
+  const [hoverMail, setHoverMail] = useState(false)
+  const toggleMailHover = () => {
+    setHoverMail(!hoverMail)
+  }
+
   return (
     <div className='app-container'  >
       <div className='profile-container'  >
@@ -17,16 +33,29 @@ function App() {
           </div>
           <div className='link-div'>
 
-            <FontAwesomeIcon className='linkedin margin-text' icon={faLinkedin} />
-            <FontAwesomeIcon className='linkedin margin-text' icon={faGithub} />
-            <FontAwesomeIcon className='linkedin margin-text' icon={faEnvelope} />
+            <FontAwesomeIcon
+              className={`icon margin-text ${hoverLinkedIn ? "fa-beat" : ""}`} icon={faLinkedin}
+              onMouseEnter={toggleLinkedInHover}
+              onMouseLeave={toggleLinkedInHover}
+            />
+            <FontAwesomeIcon
+              className={`icon margin-text ${hoverGitHub ? "fa-beat" : ""}`} icon={faGithub}
+              onMouseEnter={toggleGitHubHover}
+              onMouseLeave={toggleGitHubHover}
+            />
+            <FontAwesomeIcon
+              className={`icon margin-text ${hoverMail ? "fa-beat" : ""}`} icon={faEnvelope}
+              onMouseEnter={toggleMailHover}
+              onMouseLeave={toggleMailHover}
+
+            />
 
           </div>
 
 
         </div>
         <div className='profile-image-container'  >
-          <img className='photo' src="/sophie.png"></img>
+          <img className='photo' alt='sophie' src="/sophie.png"></img>
         </div>
 
       </div>

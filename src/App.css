@@ -68,10 +68,11 @@
   align-items: center;
 }
 
-.linkedin{
+.icon{
   color: #FE7E6D;
   height: 30px;
   width: 30px;
+  --fa-animation-duration: 2s
 }
 
 .margin-text {
