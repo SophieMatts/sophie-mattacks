@@ -35,6 +35,7 @@ h1{
 
 .name-div{
   background-color: #D3DEDC;
+  font-family: PlayfairDisplay;
   color: #7C99AC;
   height: 33%;
   width: 100%;
@@ -45,6 +46,8 @@ h1{
 
 .blurb-div {
   background-color: #D3DEDC;
+  font-family: PlayfairDisplay;
+  font-weight: bold;
   color: #92A9BD;
   height: 33%;
   width: 100%;
@@ -55,6 +58,7 @@ h1{
 
 .link-div {
   background-color: #D3DEDC;
+  font-family: PlayfairDisplay;
   color: #FFEFEF;
   height: 32%;
   width: 100%;
