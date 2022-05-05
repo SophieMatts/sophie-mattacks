@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { MenuItems} from './MenuItems';
+// import { Button } from '../Button';
 import './Navbar.css'
 
 class Navbar extends Component {
@@ -14,8 +15,7 @@ class Navbar extends Component {
   render() {
     return(
       <nav className="NavbarItems">
-        <h1 className="navbar-logo">SophieMattacks.com<i className="fab fa-react"></
-        i></h1>
+        <h1 className="navbar-logo">SophieMattacks.com</h1>
 
         <div className="menu-icon" onClick={this.handleClick}>
           <i className={this.state.clicked ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'}></i>
@@ -33,6 +33,7 @@ class Navbar extends Component {
             )
           })}
         </ul>
+        {/* <Button>Sign Up</Button> */}
       </nav>
     )
   }
