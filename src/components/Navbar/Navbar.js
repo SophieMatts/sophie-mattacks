@@ -3,6 +3,7 @@ import { MenuItems} from './MenuItems';
 // import { Button } from '../Button';
 import './Navbar.css'
 
+
 class Navbar extends Component {
   state = { clicked: false}
 
@@ -14,7 +15,8 @@ class Navbar extends Component {
 
   render() {
     return(
-      <nav className="NavbarItems">
+
+      <nav className="Navbar">
         <h1 className="navbar-logo">SophieMattacks.com</h1>
 
         <div className="menu-icon" onClick={this.handleClick}>
@@ -34,6 +36,7 @@ class Navbar extends Component {
           })}
         </ul>
         {/* <Button>Sign Up</Button> */}
+
       </nav>
     )
   }

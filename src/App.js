@@ -5,6 +5,9 @@ import { faEnvelope, } from '@fortawesome/free-solid-svg-icons'
 import { useState } from 'react';
 import Navbar from './components/Navbar/Navbar';
 
+
+
+
 function App() {
   const [hoverLinkedIn, setHoverLinkedIn] = useState(false)
   const toggleLinkedInHover = () => {
@@ -26,6 +29,7 @@ function App() {
       <div className='navbar-container' >
         <Navbar />
       </div>
+
       <div className='profile-container'  >
         <div className='profile-contents-container'  >
           <div className='name-div'>
