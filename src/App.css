@@ -1,3 +1,8 @@
+* {
+  font-family: PlayfairDisplay;
+}
+
+
 .app-container{
   background-color: #FFEFEF;
   display: flex;
