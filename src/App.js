@@ -1,82 +1,62 @@
 import './App.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope, } from '@fortawesome/free-solid-svg-icons'
-import { useState } from 'react';
+
 import Navbar from './components/Navbar/Navbar';
+import { Routes, Route } from "react-router-dom";
+import Home from './Pages/Home/Home';
+import About from './Pages/About/About';
+import Projects from './Pages/Projects/Projects';
+import Contact from './Pages/Contact/Contact';
 
 
 
 
 function App() {
-  const [hoverLinkedIn, setHoverLinkedIn] = useState(false)
-  const toggleLinkedInHover = () => {
-    setHoverLinkedIn(!hoverLinkedIn)
-  }
-
-  const [hoverGitHub, setHoverGitHub] = useState(false)
-  const toggleGitHubHover = () => {
-    setHoverGitHub(!hoverGitHub)
-  }
-
-  const [hoverMail, setHoverMail] = useState(false)
-  const toggleMailHover = () => {
-    setHoverMail(!hoverMail)
-  }
 
   return (
     <div className='app-container'  >
       <div className='navbar-container' >
+          {/* MADE TODAY - 10/05 */}
         <Navbar />
       </div>
 
-      <div className='profile-container'  >
-        <div className='profile-contents-container'  >
-          <div className='name-div'>
-            <div className='first-name-text margin-text'>I'm Sophie</div>
-            <div className='margin-text'> A Web Developer! </div>
-          </div>
-          <div className='blurb-div'>
-            <div className='margin-text'> London based developer with experience in: Ruby, Rails, JavaScript and React.  </div>
-          </div>
-          <div className='link-div'>
-
-            <a href="https://www.linkedin.com/in/sophie-mattacks-88501659/">
-              <FontAwesomeIcon
-                className={`icon margin-text ${hoverLinkedIn ? "fa-beat" : ""}`} icon={faLinkedin}
-                onMouseEnter={toggleLinkedInHover}
-                onMouseLeave={toggleLinkedInHover}
-              />
-            </a>
-
-            <a href="https://github.com/SophieMatts">
-              <FontAwesomeIcon
-                className={`icon margin-text ${hoverGitHub ? "fa-beat" : ""}`} icon={faGithub}
-                onMouseEnter={toggleGitHubHover}
-                onMouseLeave={toggleGitHubHover}
-              />
-            </a>
-
-            <a href="mailto:mail@sophiemattacks.com">
-              <FontAwesomeIcon
-                className={`icon margin-text ${hoverMail ? "fa-beat" : ""}`} icon={faEnvelope}
-                onMouseEnter={toggleMailHover}
-                onMouseLeave={toggleMailHover}
-              />
-            </a>
-
-          </div>
-
-
-        </div>
-        <div className='profile-image-container'  >
-          <img className='photo' alt='sophie' src="/sophie.png"></img>
-        </div>
-
-      </div>
-
+      <Routes>
+        <Route path='/About' element={<About />} />
+        <Route path='/Projects' element={<Projects />} />
+        <Route path='/Contact' element={<Contact />} />
+        <Route path='/' element={<Home />} />
+      </Routes>
     </div>
   );
 }
+
+
+// MADE TODAY - 10/05
+// Home Page
+// const Home = () => (
+//   <Fragment>
+//     <h1>Home</h1>
+//     <FakeText />
+//   </Fragment>
+// );
+// // About Page
+// const About = () => (
+//   <Fragment>
+//     <h1>About</h1>
+//     <FakeText />
+//   </Fragment>
+// );
+// // Contact Page
+// const Contact = () => (
+//   <Fragment>
+//     <h1>Contact</h1>
+//     <FakeText />
+//   </Fragment>
+// );
+
+// const FakeText = () => (
+//   <p>
+//   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+//   </p>
+// )
 
 export default App;
