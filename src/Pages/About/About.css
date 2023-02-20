@@ -1,0 +1,40 @@
+.get-to-know-me-container {
+  background-color: white;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
+h1 {
+  font-family: 'AbhayaLibre';
+  font-size:x-large;
+  color:#FE7E6D;
+}
+
+p {
+  font-size: medium;
+  font-family: 'AbhayaLibre-SemiBold';
+  font-weight:100;
+}
+
+.my-journey-div {
+  text-align: left;
+  font-size: 6px;
+  height: 33%;
+  margin: 20px;
+}
+
+.neurodiversity-div {
+  text-align: left;
+  font-size: 6px;
+  height: 33%;
+  margin: 20px;
+}
+
+.my-vision-div {
+  text-align: left;
+  font-size: 6px;
+  height: 33%;
+  margin: 20px;
+}

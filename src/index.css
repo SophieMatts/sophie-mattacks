@@ -1,4 +1,4 @@
-body {
+/*body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -7,13 +7,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
 
 
-@font-face {
-  font-family: 'PlayfairDisplay';
-  src: local('PlayfairDisplay'), url(./fonts/PlayfairDisplay[wght].ttf)
-}
+/*@font-face {
+  font-family: 'PlayfairDisplay', 'Calistoga-Regular', 'Montserrat-VariableFont_wght';
+  src: local('PlayfairDisplay'), url(./fonts/PlayfairDisplay[wght].ttf),
+  local('Calistoga-Regular'), url(./fonts/Calistoga-Regular.ttf),
+  local('Montserrat-VariableFont_wght'), url(./fonts/Montserrat-VariableFont_wght.ttf);
+
+}*/

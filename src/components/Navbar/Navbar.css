@@ -5,8 +5,6 @@
 
 }
 
-
-
 .Navbar{
   background: #FE7E6D;
   height: 80px;
@@ -20,6 +18,7 @@
   color: white;
   justify-self: start;
   margin-left: 20px;
+  font-family:'AbhayaLibre';
   cursor: pointer;
 }
 
@@ -34,7 +33,7 @@
   grid-gap: 10px;
   list-style: none;
   text-align: center;
-  width: 70vw;
+  width: 80vw;
   justify-content: end;
   margin-right: 2rem;
 }
@@ -43,6 +42,8 @@
   color: white;
   text-decoration: none;
   padding: 0.5rem, 1rem;
+  font-family:'AbhayaLibre';
+
 }
 
 .nav-links:hover {

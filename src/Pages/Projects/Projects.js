@@ -1,8 +1,12 @@
 import React from 'react';
 
+
 const Projects = () => {
+
   return (
-      <h1>Projects</h1>
+    <div className='app-container'>
+      <h1>Projects - Coming Soon</h1>
+    </div>
   );
 };
 
