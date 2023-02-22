@@ -12,11 +12,23 @@
     monospace;
 } */
 
+@font-face {
+  font-family: "AbhayaLibre";
+  src: local("AbhayaLibre"),
+    url("./fonts/AbhayaLibre-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
 
-/*@font-face {
-  font-family: 'PlayfairDisplay', 'Calistoga-Regular', 'Montserrat-VariableFont_wght';
-  src: local('PlayfairDisplay'), url(./fonts/PlayfairDisplay[wght].ttf),
-  local('Calistoga-Regular'), url(./fonts/Calistoga-Regular.ttf),
-  local('Montserrat-VariableFont_wght'), url(./fonts/Montserrat-VariableFont_wght.ttf);
+@font-face {
+  font-family: "AbhayaLibre";
+  src: local("AbhayaLibreEB"),
+    url("./fonts/AbhayaLibre-ExtraBold.ttf") format("truetype");
+  font-weight: normal;
+}
 
-}*/
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+    url("./fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+}

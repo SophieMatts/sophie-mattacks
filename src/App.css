@@ -6,24 +6,6 @@
     url('./fonts/PlayfairDisplay[wght].ttf') format("truetype");
 }*/
 
-@font-face {
-  font-family: "AbhayaLibre";
-  src: local("AbhayaLibre-SemiBold"),
-    url('./fonts/AbhayaLibre-SemiBold.ttf') format("truetype");
-}
-
-@font-face {
-  font-family: "AbhayaLibre";
-  src: local("AbhayaLibre-Bold"),
-    url('./fonts/AbhayaLibre-Bold.ttf') format("truetype");
-}
-
-@font-face {
-  font-family: "AbhayaLibre";
-  src: local("AbhayaLibre-ExtraBold"),
-    url('./fonts/AbhayaLibre-ExtraBold.ttf') format("truetype");
-}
-
 /* Default CSS */
 
 * {
@@ -39,7 +21,7 @@ html {
 
 body {
   font-weight: 400;
-  overflow: hidden;
+  /* overflow: hidden; */
   position: relative;
   padding-top: 30px;
 }
@@ -47,6 +29,8 @@ body {
 .app-container{
   background-color: #FFEFEF;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   height: 100vh;

@@ -1,9 +1,123 @@
-.get-to-know-me-container {
-  background-color: white;
+
+/*FIRST SECTION*/
+.get-to-know-me {
+  margin-top: 50px;
   width: 100%;
-  border-radius: 10px;
-  overflow: hidden;
+  height: 250px;
+  position: relative;
+  float: left;
+  display: block;
+  background-image: url("/public/aboutme2.png");
+  background-size: 100% 450px;
+  background-position: left;
+
 }
+
+/*SECOND SECTION - SET UP*/
+.my-journey-div {
+  width: 100%;
+  height: 62%;
+  text-align: left;
+  font-size: 6px;
+  background-color: white;
+}
+
+.jcontent-container{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  background-color:azure;
+}
+
+/*SECOND SECTION - CONTENT*/
+
+/*Left Image*/
+.img-box-1 {
+  float: left;
+  background: white;
+  width: 25%;
+  height: 100%;
+  padding: 10px;
+}
+
+.img-meandboo {
+  height: 50%;
+  background-image: url("/public/meandboo.png");
+  background-size: cover;
+  background-position: 0px;
+  margin-top: 170px;
+}
+
+/*Central Text*/
+.mystory-container{
+  float: left;
+  background: White;
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+}
+
+.my-story-header {
+  font-size: 45px;
+  font-weight: bolder;
+  font-family:'AbhayaLibre';
+  text-align: center;
+  color: #FE7E6D;
+}
+
+.the-beginning-header{
+  font-size: 14px;
+  font-family: 'Montserrat';
+  font-weight:bolder;
+  text-align: center;
+  color: navy;
+}
+
+.the-beginning-text-1 {
+  padding: 10px 60px 10px 60px;
+  font-size: 11px;
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+.the-beginning-text-2 {
+  padding: 0px 60px 10px 60px;
+  font-size: 11px;
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+.the-beginning-text-3 {
+  padding: 0px 60px 10px 60px;
+  font-size: 11px;
+  font-family: 'Montserrat';
+  text-align: center;
+}
+.the-beginning-text-4 {
+  padding: 0px 60px 10px 60px;
+  font-size: 11px;
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+/*Right Image*/
+.img-box-2 {
+  float: right;
+  background:white;
+  width: 25%;
+  height: 100%;
+  padding: 10px;
+}
+
+.img-lewagon {
+  height: 50%;
+  background-image: url("/public/lewagon.png");
+  background-size: cover;
+  background-position: center;
+  margin-top: 90px;
+}
+
+
 
 
 h1 {
@@ -18,18 +132,14 @@ p {
   font-weight:100;
 }
 
-.my-journey-div {
-  text-align: left;
-  font-size: 6px;
-  height: 33%;
-  margin: 20px;
-}
+/*Third Section - Set Up*/
 
 .neurodiversity-div {
   text-align: left;
   font-size: 6px;
   height: 33%;
   margin: 20px;
+  background-color: #FE7E6D;
 }
 
 .my-vision-div {
@@ -37,4 +147,5 @@ p {
   font-size: 6px;
   height: 33%;
   margin: 20px;
+    background-color: #FE7E6D;
 }

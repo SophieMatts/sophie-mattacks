@@ -5,6 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
 
+//Fonts
+import './fonts/AbhayaLibre-Bold.ttf';
+import './fonts/AbhayaLibre-ExtraBold.ttf';
+import './fonts/AbhayaLibre-Medium.ttf';
+import './fonts/AbhayaLibre-Regular.ttf';
+import './fonts/AbhayaLibre-SemiBold.ttf';
+import './fonts/Montserrat-Italic-VariableFont_wght.ttf';
+import './fonts/Montserrat-VariableFont_wght.ttf';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<BrowserRouter><App /></BrowserRouter>);

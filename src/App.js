@@ -4,11 +4,6 @@ import './Pages/Home/Home.css';
 import './Pages/Contact/Contact.css';
 import './Pages/About/About.css';
 
-//Fonts
-import "./fonts/AbhayaLibre-Bold.ttf";
-import "./fonts/AbhayaLibre-SemiBold.ttf";
-import "./fonts/AbhayaLibre-ExtraBold.ttf";
-
 //Components
 import Navbar from './components/Navbar/Navbar';
 
