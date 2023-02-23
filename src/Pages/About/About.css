@@ -3,30 +3,24 @@
 .get-to-know-me {
   margin-top: 50px;
   width: 100%;
-  height: 250px;
-  position: relative;
-  float: left;
-  display: block;
+  height: 258px;
   background-image: url("/public/aboutme2.png");
   background-size: 100% 450px;
   background-position: left;
-
 }
 
-/*SECOND SECTION - SET UP*/
+/*SECOND SECTION - CONTAINERS*/
 .my-journey-div {
   width: 100%;
-  height: 62%;
+  height: 65%;
   text-align: left;
-  font-size: 6px;
   background-color: white;
 }
 
 .jcontent-container{
-  width: 80%;
+  width: 70%;
   height: 100%;
   margin: auto;
-  background-color:azure;
 }
 
 /*SECOND SECTION - CONTENT*/
@@ -74,28 +68,37 @@
 }
 
 .the-beginning-text-1 {
-  padding: 10px 60px 10px 60px;
-  font-size: 11px;
+  padding: 8px 60px 8px 60px;
+  font-size: 10px;
   font-family: 'Montserrat';
   text-align: center;
 }
 
-.the-beginning-text-2 {
-  padding: 0px 60px 10px 60px;
-  font-size: 11px;
+.the-beginning-text-2, .the-beginning-text-3, .the-beginning-text-4, .the-beginning-text-5 {
+  padding: 0px 60px 8px 60px;
+  font-size: 10px;
   font-family: 'Montserrat';
   text-align: center;
 }
 
-.the-beginning-text-3 {
-  padding: 0px 60px 10px 60px;
-  font-size: 11px;
+.my-vision-header {
+  font-size: 14px;
+  font-family: 'Montserrat';
+  font-weight: bolder;
+  text-align: center;
+  color: navy;
+}
+
+.my-vision-text-1 {
+  padding: 8px 60px 8px 60px;
+  font-size: 10px;
   font-family: 'Montserrat';
   text-align: center;
 }
-.the-beginning-text-4 {
-  padding: 0px 60px 10px 60px;
-  font-size: 11px;
+
+.my-vision-text-2 {
+  padding: 0px 60px 8px 60px;
+  font-size: 10px;
   font-family: 'Montserrat';
   text-align: center;
 }
@@ -114,38 +117,106 @@
   background-image: url("/public/lewagon.png");
   background-size: cover;
   background-position: center;
-  margin-top: 90px;
+  margin-top: 35px;
 }
 
 
 
+/*THIRD SECTION*/
+.neurodiversity {
+  margin-top: 6px;
+  width: 100%;
+  height: 258px;
+  background-image: url("/public/nuero.png");
+  background-size: contain;
+  opacity: 0.7;
+}
 
-h1 {
+.nd-header {
+  margin-top: 120px;
+
+}
+.nd-header-text {
+  font-size: 55px;
+  font-weight: bolder;
   font-family: 'AbhayaLibre';
-  font-size:x-large;
+  text-align: center;
+  color: navy;
+
+
+}
+
+/*FIFTH SECTION - CONTAINERS*/
+
+.neurodiversity-div {
+  width: 100%;
+  height: 65%;
+  text-align: left;
+  background-color: white;
+}
+
+.ndcontent-container {
+  width: 95%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.nd-box, .creative-box, .empath-box, .mentor-box, .problem-solver-box, .transfer-box{
+  width: 33.33%;
+  height: 50%;
+}
+
+.box-content-container{
+  width: 96%;
+  height: 95%;
+  background-color: white;
+  margin-top: 5px;
+  margin-left: 6px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+
+
+/*FIFTH SECTION - BOX CONTENT*/
+
+.icon-column{
+  flex-grow: 2;
+  background-color: turquoise;
+  width: 48%;
+  position: relative;
+}
+
+.nd-icon{
+  position: absolute;
+  margin-top: 34px;
   color:#FE7E6D;
 }
 
-p {
-  font-size: medium;
-  font-family: 'AbhayaLibre-SemiBold';
-  font-weight:100;
+.side-column {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
 }
 
-/*Third Section - Set Up*/
-
-.neurodiversity-div {
-  text-align: left;
-  font-size: 6px;
-  height: 33%;
-  margin: 20px;
-  background-color: #FE7E6D;
+.box-header {
+  font-size: 16px;
+  font-family: 'Montserrat';
+  font-weight: bolder;
+  text-align: center;
+  color: navy;
+  background-color: aqua;
+  height: 12%;
 }
 
-.my-vision-div {
-  text-align: left;
-  font-size: 6px;
-  height: 33%;
-  margin: 20px;
-    background-color: #FE7E6D;
+.box-text {
+  flex-grow: 1;
+  text-align: center;
+  background-color: aquamarine;
+  font-size: 10px;
+  font-family: 'Montserrat';
 }
