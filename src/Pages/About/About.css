@@ -142,8 +142,6 @@
   font-family: 'AbhayaLibre';
   text-align: center;
   color: navy;
-
-
 }
 
 /*FIFTH SECTION - CONTAINERS*/
@@ -181,42 +179,47 @@
 }
 
 
-
 /*FIFTH SECTION - BOX CONTENT*/
 
 .icon-column{
   flex-grow: 2;
-  background-color: turquoise;
-  width: 48%;
-  position: relative;
+  width: 45%;
+  height: 100%;
 }
 
 .nd-icon{
-  position: absolute;
   margin-top: 34px;
   color:#FE7E6D;
+  height: 100%;
+  width: 100%;
+  text-align: center;
 }
 
 .side-column {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
+  height: 100%;
+  width: 80%;
+  margin-left: 4px;
 }
 
 .box-header {
   font-size: 16px;
   font-family: 'Montserrat';
   font-weight: bolder;
-  text-align: center;
+  text-align: left;
   color: navy;
-  background-color: aqua;
   height: 12%;
 }
 
 .box-text {
   flex-grow: 1;
-  text-align: center;
-  background-color: aquamarine;
-  font-size: 10px;
+  text-align:start;
+  font-size: 9px;
   font-family: 'Montserrat';
+}
+
+.p {
+  margin-top: 5px;
 }
