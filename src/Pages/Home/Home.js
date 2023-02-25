@@ -22,16 +22,31 @@ function Home() {
 
   return (
     <>
+    <div className="homepage-container">
       <div className='profile-container'  >
-        <div className='profile-contents-container'  >
-          <div className='name-div'>
-            <div className='first-name-text margin-text'>I'm Sophie</div>
-            <div className='margin-text'> A Web Developer! </div>
+        <div className='profile-text-container'  >
+          <div className='header-text-container'>
+            <div className='first-name-text'>
+              I'm Sophie
+            </div>
+            <div className='header2-text'>
+              A Web Developer!
+            </div>
           </div>
-          <div className='blurb-div'>
-            <div className='margin-text'> London based developer with experience in: Ruby, Rails, JavaScript and React.  </div>
+          <div className="break-container">
+            <div className="break">
+              _______________________________________
+            </div>
           </div>
-          <div className='link-div'>
+          <div className='blurb-container'>
+            <div className="blurb-text">
+              London based developer with experience in:
+            </div>
+            <div className="blurb-text">
+              Ruby, Rails, JavaScript and React.
+            </div>
+          </div>
+          <div className='link-container'>
 
             <a href="https://www.linkedin.com/in/sophie-mattacks-88501659/">
               <FontAwesomeIcon
@@ -58,14 +73,30 @@ function Home() {
             </a>
 
           </div>
-
-
         </div>
-        <div className='profile-image-container'  >
-          <img className='photo' alt='sophie' src="/sophie.png"></img>
+
+        <div className='profile-image-container'>
+          <div className="profile-img-s1">
+            <div className="profile-img-s1-left">
+              <div className="photo1"></div>
+            </div>
+            <div className="profile-img-s1-right">
+              <div className="photo2"></div>
+              <div className="photo3"></div>
+            </div>
+          </div>
+          <div className="profile-img-s2">
+            <div className="photo4"></div>
+            <div className="photo5"></div>
+            <div className="photo6"></div>
+          </div>
+
+
+
         </div>
 
       </div>
+    </div>
 
     </>
   );
