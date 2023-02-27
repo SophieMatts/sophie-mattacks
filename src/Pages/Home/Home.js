@@ -95,14 +95,8 @@ function Home() {
             <div className="col4-photo1"></div>
             <div className="col4-photo2"></div>
             <div className="col4-photo3"></div>
+            <div className="col4-photo4"></div>
           </div>
-
-
-
-
-
-
-
 
         </div>
 
