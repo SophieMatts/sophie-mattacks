@@ -4,18 +4,21 @@
   background-image: url("/public/home_bg.png");
 }
 
+/* MAIN CONTENT */
+
 .profile-container {
   height: 80%;
-  width: 95%;
   display: flex;
   overflow: hidden;
   margin-top: 80px;
-  margin-left: 40px;
+  margin-left: 20px;
 }
+
+/* TEXT CONTENT */
 
 .profile-text-container {
   height: 100%;
-  width: 50%;
+  width: 40%;
 }
 
 .header-text-container {
@@ -69,106 +72,7 @@
   font-size: 15px;
 }
 
-.profile-image-container {
-  width: 50%;
-  height: 100%;
-  background-color: #FFEFEF;
-}
-
-.profile-img-s1{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  width: 100%;
-  height: 70%;
-  background-color: #FE7E6D;
-}
-
-.profile-img-s1-left {
-  margin: auto;
-  margin-left: 5px;
-  width: 62%;
-  height: 80%;
-  align-items: center;
-  background-color: #0F6292;
-}
-
-.photo1 {
-  height: 100%;
-  margin: auto;
-  background-image: url("/public/selfie.png");
-  background-size: cover;
-}
-
-.profile-img-s1-right {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  width: 34%;
-  height: 100%;
-  background-color: aqua;
-}
-
-.photo2 {
-  flex-grow: 1;
-  height: 40%;
-  margin-top: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
-  background-image: url("/public/mac.png");
-  background-size: cover;
-
-}
-
-.photo3 {
-  flex-grow: 1;
-  height: 20%;
-  margin-top: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
-  background-image: url("/public/terrazzo.png");
-  background-size: cover;
-}
-
-.profile-img-s2 {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  width: 100%;
-  height: 33%;
-  background-color: green;
-}
-
-.photo4 {
-  height: 40%;
-  width: 30%;
-  margin-top: 5px;
-  margin-left: 5px;
-  background-image: url("/public/profile-img-bg.png");
-  background-size: cover;
-}
-
-.photo5 {
-  height: 40%;
-  width: 30%;
-  margin-top: 5px;
-  margin-left: 5px;
-  background-image: url("/public/profile-img-bg.png");
-  background-size: cover;
-}
-
-.photo6 {
-  height: 40%;
-  width: 30%;
-  margin-top: 5px;
-  margin-left: 5px;
-  background-image: url("/public/profile-img-bg.png");
-  background-size: cover;
-}
-
-
-
-
-
+/* LINK CONTENT */
 
 .link-container {
   color: #FFEFEF;
@@ -187,4 +91,176 @@
   width: 35px;
   margin-left: 1px;
   --fa-animation-duration: 2s
+}
+
+/* IMAGE CONTENT */
+
+.profile-image-container {
+  width: 70%;
+  height: 100%;
+  background-color: #FFEFEF;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+}
+
+/* Column 1 */
+
+.profile-img-col-1 {
+  margin-top: 5px;
+  margin-bottom: 8px;
+  width: 40%;
+  height: 100%;
+  align-items: center;
+}
+
+.col1-photo1 {
+  height: 80%;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-image: url("/public/home_me.png");
+  background-size: cover;
+  background-position: 35%;
+}
+
+.col1-photo2 {
+  height: 18.5%;
+  width: 100%;
+  margin-bottom: 5px;
+  background-image: url("/public/home_peachflower.png");
+  background-size: 590px;
+  background-position: center;
+}
+
+
+/* Column 2 */
+.profile-img-col-2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  width: 20%;
+  height: 100%;
+}
+
+.col2-photo1 {
+  height: 30%;
+  width: 100%;
+  margin-top: 5px;
+  margin-left: 5px;
+  background-image: url("/public/terrazzo.png");
+  background-size: 180px;
+
+}
+
+.col2-photo2 {
+  height: 27%;
+  width: 100%;
+  margin-top: 5px;
+  margin-left: 5px;
+  background-image: url("/public/mac.png");
+  background-size: 180px;
+  background-position: center;
+}
+
+.col2-photo3 {
+  height: 40%;
+  width: 100%;
+  margin-top: 5px;
+  margin-left: 5px;
+  background-image: url("/public/home_medown.png");
+  background-size: 80px;
+  background-position: center;
+}
+
+/* Column 3 */
+
+.profile-img-col-3 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  width: 15%;
+  height: 100%;
+}
+
+.col3-photo1 {
+  height: 35%;
+  width: 100%;
+  margin-top: 5px;
+  margin-left: 5px;
+  background-image: url("/public/home_peachflower.png");
+  background-size: 300px;
+  background-position: center;
+}
+
+
+.col3-photo2 {
+  height: 40%;
+  width: 100%;
+  margin-top: 5px;
+  margin-left: 5px;
+  background-image: url("/public/home_meup.png");
+  background-size: cover;
+  background-position: right;
+}
+
+.col3-photo3 {
+  height: 22%;
+  width: 100%;
+  margin-top: 5px;
+  margin-left: 5px;
+  background-image: url("/public/mac.png");
+  background-size: cover;
+  background-position: right;
+}
+
+/* Column 4 */
+
+.profile-img-col-4 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 5px;
+  margin-right: 5px;
+  width: 20%;
+  height: 100%;
+}
+
+.col4-photo1 {
+  height: 50%;
+  width: 100%;
+  margin-top: 5px;
+  margin-left: 5px;
+  background-image: url("/public/home_mesketch.png");
+  background-size: cover;
+  background-position: 16%;
+}
+
+.col4-photo2 {
+  height: 30%;
+  width: 100%;
+  margin-top: 5px;
+  margin-left: 5px;
+  background-image: url("/public/mac.png");
+  background-size: cover;
+  background-position: right;
+
+}
+
+.col4-photo3 {
+  height: 16%;
+  width: 100%;
+  margin-top: 5px;
+  margin-left: 5px;
+  background-image: url("/public/terrazzo.png");
+  background-size: cover;
 }

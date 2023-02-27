@@ -76,20 +76,31 @@ function Home() {
         </div>
 
         <div className='profile-image-container'>
-          <div className="profile-img-s1">
-            <div className="profile-img-s1-left">
-              <div className="photo1"></div>
-            </div>
-            <div className="profile-img-s1-right">
-              <div className="photo2"></div>
-              <div className="photo3"></div>
-            </div>
+
+          <div className="profile-img-col-1">
+            <div className="col1-photo1"></div>
+            <div className="col1-photo2"></div>
           </div>
-          <div className="profile-img-s2">
-            <div className="photo4"></div>
-            <div className="photo5"></div>
-            <div className="photo6"></div>
+          <div className="profile-img-col-2">
+            <div className="col2-photo1"></div>
+            <div className="col2-photo2"></div>
+            <div className="col2-photo3"></div>
           </div>
+          <div className="profile-img-col-3">
+            <div className="col3-photo1"></div>
+            <div className="col3-photo2"></div>
+            <div className="col3-photo3"></div>
+          </div>
+          <div className="profile-img-col-4">
+            <div className="col4-photo1"></div>
+            <div className="col4-photo2"></div>
+            <div className="col4-photo3"></div>
+          </div>
+
+
+
+
+
 
 
 
