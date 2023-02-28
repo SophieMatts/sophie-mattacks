@@ -19,11 +19,7 @@ html {
   scroll-padding-top: 75px;
 }
 
-body {
-  font-weight: 400;
-  position: relative;
-  padding-top: 30px;
-}
+
 
 .app-container{
   background-color: #FFEFEF;
