@@ -3,6 +3,8 @@ import './App.css';
 import './Pages/Home/Home.css';
 import './Pages/Contact/Contact.css';
 import './Pages/About/About.css';
+import './Pages/CV/CV.css';
+
 
 //Components
 import Navbar from './components/Navbar/Navbar';
@@ -13,6 +15,8 @@ import Home from './Pages/Home/Home';
 import About from './Pages/About/About';
 import Projects from './Pages/Projects/Projects';
 import Contact from './Pages/Contact/Contact';
+import CV from './Pages/CV/CV';
+
 
 
 
@@ -30,7 +34,9 @@ function App() {
         <Route path='/Projects' element={<Projects />} />
         <Route path='/Contact' element={<Contact />} />
         <Route path='/' element={<Home />} />
+        <Route path='CV' element={<CV />} />
       </Routes>
+
     </div>
   );
 }

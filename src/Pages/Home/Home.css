@@ -10,7 +10,7 @@
   height: 80%;
   display: flex;
   overflow: hidden;
-  margin-top: 80px;
+  margin-top: 60px;
   margin-left: 20px;
 }
 
@@ -57,7 +57,7 @@
 
 .blurb-container {
   color: #7C99AC;
-  height: 25%;
+  height: 30%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -66,29 +66,45 @@
   font-family: 'Montserrat';
 }
 
-.blub-text {
-  margin-left: 10px;
-  margin-right: 10px;
-  font-size: 15px;
+.blurb-text-1 {
+  font-size: 14px;
 }
 
-/* LINK CONTENT */
+.blurb-text-2 {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.blurb-text-3 {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.blurb-text-4 {
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+/*CV BUTTON LINK*/
+
+
+/* SOCIAL LINK CONTENT */
 
 .link-container {
   color: #FFEFEF;
-  height: 32%;
+  height: 10%;
   width: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-top: 95px;
+  margin-top: 40px;
   margin-left: 5px;
 }
 
 .icon {
   color: #FE7E6D;
-  height: 30px;
-  width: 35px;
+  height: 40px;
+  width: 45px;
   margin-left: 1px;
   --fa-animation-duration: 2s
 }

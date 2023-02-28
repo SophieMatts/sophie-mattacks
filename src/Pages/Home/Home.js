@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope, } from '@fortawesome/free-solid-svg-icons'
+import CVButton from '../../components/CVButton/CVButton';
 
 function Home() {
   const [hoverLinkedIn, setHoverLinkedIn] = useState(false)
@@ -39,13 +40,24 @@ function Home() {
             </div>
           </div>
           <div className='blurb-container'>
-            <div className="blurb-text">
+            <div className="blurb-text-1">
               London based developer with experience in:
             </div>
-            <div className="blurb-text">
+            <div className="blurb-text-2">
               Ruby, Rails, JavaScript and React.
             </div>
+            <div className="blurb-text-3">
+              A developer with a passion for front end and design.
+            </div>
+            <div className="blurb-text-4">
+              Feel free to drop them a line, or download their CV here...
+            </div>
           </div>
+
+          <div className="CVButton-container">
+            <CVButton/>
+          </div>
+
           <div className='link-container'>
 
             <a href="https://www.linkedin.com/in/sophie-mattacks-88501659/">
