@@ -47,10 +47,7 @@ function Home() {
               Ruby, Rails, JavaScript and React.
             </div>
             <div className="blurb-text-3">
-              A developer with a passion for front end and design.
-            </div>
-            <div className="blurb-text-4">
-              Feel free to drop them a line, or download their CV here...
+              A developer with a passion for front end design and user experience.
             </div>
           </div>
 
