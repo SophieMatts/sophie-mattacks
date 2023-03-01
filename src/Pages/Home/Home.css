@@ -63,20 +63,21 @@
   flex-direction: column;
   justify-content: center;
   margin-left: 5px;
+  margin-top: 8px;
   font-family: 'Montserrat';
 }
 
 .blurb-text-1 {
-  font-size: 14px;
+  font-size: 17px;
 }
 
 .blurb-text-2 {
-  font-size: 14px;
+  font-size: 17px;
   margin-top: 5px;
 }
 
 .blurb-text-3 {
-  font-size: 14px;
+  font-size: 17px;
   margin-top: 15px;
 }
 
@@ -94,7 +95,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 60px;
   margin-left: 5px;
 }
 

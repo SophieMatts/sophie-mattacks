@@ -25,13 +25,13 @@
   color: #FE7E6D;
   font-family: 'AbhayaLibre';
   font-weight: bolder;
-  font-size: 17px;
+  font-size: 20px;
   text-decoration: none;
 }
 
 .cv-link:hover {
   color: #0F6292;
   font: bold;
-  font-size: 20px;
+  font-size: 22px;
   transition: all 0.2s ease-out;
 }

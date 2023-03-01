@@ -3,6 +3,7 @@ import './App.css';
 import './Pages/Home/Home.css';
 import './Pages/Contact/Contact.css';
 import './Pages/About/About.css';
+import './Pages/Projects/Projects.css';
 import './Pages/CV/CV.css';
 
 
