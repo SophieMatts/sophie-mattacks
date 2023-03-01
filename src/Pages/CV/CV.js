@@ -6,8 +6,7 @@ const CV = () => {
   return (
     <>
     <div className="cv-container">
-      <div className="cv">
-      </div>
+      <div className="cv"></div>
     </div>
 
     </>
