@@ -1,4 +1,5 @@
 import React from 'react';
+import Card from '../../components/Card/Card';
 
 
 const Projects = () => {
@@ -6,7 +7,14 @@ const Projects = () => {
   return (
     <>
     <div className="projects-container">
-      <h1>Projects - Coming Soon...</h1>
+      <div className="projects-header-container">
+        <div className="p-header">Projects</div>
+      </div>
+      <div className="card-section-container">
+        <Card/>
+        <Card/>
+        <Card/>
+      </div>
     </div>
     </>
   );

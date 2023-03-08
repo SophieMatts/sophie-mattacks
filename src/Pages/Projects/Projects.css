@@ -1,5 +1,42 @@
-
-h1 {
-  font-family: 'Montserrat';
-  color: navy;
+/* PAGE CONTAINER */
+.projects-container {
+  width: 100%;
+  height: 100%;
+  background-image: url("/public/home_bg.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+/* PAGE HEADER */
+.projects-header-container {
+  margin-top: 16px;
+  width: 100%;
+  height: 180px;
+  background-image: url("/public/home_peachflower.png");
+  background-position: 70px;
+  background-size: 140%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.p-header {
+  font-family: 'AbhayaLibre';
+  font-size: 80px;
+  margin-top: 50px;
+  color: white;
+}
+
+/*PAGE CARD CONTAINER */
+.card-section-container {
+width: 100%;
+height: 80%;
+display: flex;
+flex-direction: row;
+align-items: center;
+align-content: space-around;
+
+}
+
+/* CARDS */
