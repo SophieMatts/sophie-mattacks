@@ -1,8 +1,46 @@
-.project-card{
+.card-container{
   width: 25%;
-  height: 40%;
+  height: 50%;
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 10px;
+  display: flex;
+  flex-direction: column;
   background-color: turquoise;
+}
+
+.card-image {
+  width: 100%;
+  height: 50%;
+  background-color: pink;
+}
+
+.card-title {
+  width: 100%;
+  height: 10%;
+  font-family: Montserrat;
+  font-size: 30px;
+  text-align: center;
+  background-color:aquamarine;
+}
+
+.card-contents-container {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-content: center;
+  background-color: white;
+}
+
+.card-text {
+  width: 90%;
+  height: 90%;
+  color: red;
+}
+
+.project-link {
+  width: 100%;
+  height: 5%;
+  color: black;
+  background-color: lightcoral;
 }

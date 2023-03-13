@@ -109,7 +109,7 @@ const About = () => {
                   Being naturally empathetic, I really enjoy thinking about the user's needs when it comes to the design.
                 </div>
                 <div className="p">
-                  As well as being creative on the solution side, I also take a lot of pride in my aestetics skills.
+                  As well as being creative on the solution side, I also take a lot of pride in my aesthetics skills.
                 </div>
                 <div className="p">
                   In the end, when an idea all comes together and is executed, I get such a dopamine rush!
