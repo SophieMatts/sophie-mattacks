@@ -21,7 +21,7 @@ class Card extends Component {
             <p className="card-description">{description}</p>
           </div>
           <button class="card-button">
-            <a href={plink} target="_blank" rel="noreferrer">Click here to see more</a>
+            <a className="p-link" href={plink} target="_blank" rel="noreferrer">Click here to see more</a>
           </button>
         </div>
 
