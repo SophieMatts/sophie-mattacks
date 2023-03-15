@@ -1,29 +1,32 @@
 import React, { Component } from 'react';
 import './Card.css';
 
+// import selfie from 'selfie.png';
+
 class Card extends Component {
 
-  state = { clicked: false}
-
-  handleClick = () => {
-    this.setState({ clicked: !this.state.clicked})
-  }
-
   render() {
+    const {imageUrl, title, contents, plink} = this.props;
+
     return(
       <div className="card-container">
-        <div className="card-image">{this.props.img}</div>
-        <div className="card-title">{this.props.title}</div>
+
+        <div className="card-image">
+          <img className="p-image" src={imageUrl} />
+        </div>
+
+        <div className="card-title">{title}</div>
+
         <div className="card-contents-container">
-          <div className="card-text">{this.props.contents}</div>
+          <div className="card-text">{contents}</div>
         </div>
 
         <div className="project-link">
-          <a href={this.props.plink} target="_blank" rel="noreferrer">Click here to see more</a>
+          <a href={plink} target="_blank" rel="noreferrer">Click here to see more</a>
         </div>
 
       </div>
-    )
+    );
   }
 }
 
