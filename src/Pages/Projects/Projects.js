@@ -15,14 +15,14 @@ const Projects = () => {
           <Card
           imageUrl= {'/selfie.png'}
           title="Clarity"
-          contents="This is the contents for Clarity"
+          description="This is the contents for Clarity"
           plink="https://github.com/arhamzubair00/Clarity_app#readme"
           />
 
           <Card
           src="/public/aboutme2.png"
           title="MyBasket"
-          contents="This is the contents for MyBasket"
+          description="This is the contents for MyBasket"
           plink="https://github.com/SophieMatts/my_basket#readme"
           />
 

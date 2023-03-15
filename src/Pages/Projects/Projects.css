@@ -1,6 +1,6 @@
 /* PAGE CONTAINER */
 .projects-container {
-  width: 100%;
+  width: 100vw;
   min-height: 100%;
   background-image: url("/public/home_bg.png");
   display: flex;
@@ -30,7 +30,7 @@
 
 /*PAGE CARD CONTAINER */
 .card-section-container {
-width: 90%;
+width: 95%;
 height: 100vh;
 display: flex;
 flex-direction: row;

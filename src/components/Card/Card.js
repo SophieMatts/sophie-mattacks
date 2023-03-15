@@ -6,24 +6,25 @@ import './Card.css';
 class Card extends Component {
 
   render() {
-    const {imageUrl, title, contents, plink} = this.props;
+    const {imageUrl, title, description, plink} = this.props;
 
     return(
       <div className="card-container">
 
-        <div className="card-image">
-          <img className="p-image" alt="project" src={imageUrl} />
+
+        <img className="card-background" alt="project" src={imageUrl} />
+
+
+        <div className="card-contents | flow">
+          <div className="card-contents-container | flow">
+            <h2 className="card-title">{title}</h2>
+            <p className="card-description">{description}</p>
+          </div>
         </div>
 
-        <div className="card-title">{title}</div>
-
-        <div className="card-contents-container">
-          <div className="card-text">{contents}</div>
-        </div>
-
-        <div className="project-link">
+        <button class="card-button">
           <a href={plink} target="_blank" rel="noreferrer">Click here to see more</a>
-        </div>
+        </button>
 
       </div>
     );
