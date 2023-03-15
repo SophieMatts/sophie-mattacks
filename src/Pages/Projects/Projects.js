@@ -13,14 +13,14 @@ const Projects = () => {
         <div className="card-section-container">
 
           <Card
-          imageUrl= {'/selfie.png'}
+          imageUrl= {'/nuero.png'}
           title="Clarity"
           description="This is the contents for Clarity"
           plink="https://github.com/arhamzubair00/Clarity_app#readme"
           />
 
           <Card
-          src="/public/aboutme2.png"
+          imageUrl= {'/nuero.png'}
           title="MyBasket"
           description="This is the contents for MyBasket"
           plink="https://github.com/SophieMatts/my_basket#readme"

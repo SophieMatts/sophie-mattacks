@@ -12,7 +12,7 @@ class Card extends Component {
       <div className="card-container">
 
 
-        <img className="card-background" alt="project" src={imageUrl} />
+        <img className="card-background" alt="project" src={imageUrl}/>
 
 
         <div className="card-contents | flow">
@@ -20,11 +20,12 @@ class Card extends Component {
             <h2 className="card-title">{title}</h2>
             <p className="card-description">{description}</p>
           </div>
+          <button class="card-button">
+            <a href={plink} target="_blank" rel="noreferrer">Click here to see more</a>
+          </button>
         </div>
 
-        <button class="card-button">
-          <a href={plink} target="_blank" rel="noreferrer">Click here to see more</a>
-        </button>
+
 
       </div>
     );
