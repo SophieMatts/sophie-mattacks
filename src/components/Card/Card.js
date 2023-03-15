@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Card.css';
 
-// import selfie from 'selfie.png';
+
 
 class Card extends Component {
 
@@ -12,7 +12,7 @@ class Card extends Component {
       <div className="card-container">
 
         <div className="card-image">
-          <img className="p-image" src={imageUrl} />
+          <img className="p-image" alt="project" src={imageUrl} />
         </div>
 
         <div className="card-title">{title}</div>
