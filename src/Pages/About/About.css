@@ -159,7 +159,6 @@
 .ndcontent-container {
   width: 95%;
   height: 100%;
-  margin: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
