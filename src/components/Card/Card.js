@@ -6,7 +6,7 @@ import './Card.css';
 class Card extends Component {
 
   render() {
-    const {imageUrl, title, description, plink} = this.props;
+    const {imageUrl, title, language, description, plink} = this.props;
 
     return(
       <div className="card-container">
@@ -18,6 +18,7 @@ class Card extends Component {
         <div className="card-contents | flow">
           <div className="card-contents-container | flow">
             <h2 className="card-title">{title}</h2>
+            <p className="card-description">{language}</p>
             <p className="card-description">{description}</p>
           </div>
           <button class="card-button">

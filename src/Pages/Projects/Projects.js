@@ -13,17 +13,35 @@ const Projects = () => {
         <div className="card-section-container">
 
           <Card
-          imageUrl= {'/nuero.png'}
+          imageUrl= {'/projects_card.png'}
           title="Clarity"
-          description="This is the contents for Clarity"
+          language="Language: Ruby-on-Rails"
+          description="A diary for the Neurodiverse."
           plink="https://github.com/arhamzubair00/Clarity_app#readme"
           />
 
           <Card
-          imageUrl= {'/nuero.png'}
+          imageUrl= {'/projects_card.png'}
           title="MyBasket"
-          description="This is the contents for MyBasket"
+          language="Language: Ruby-on-Rails"
+          description="Shopping list app with Gmail User Sign-In."
           plink="https://github.com/SophieMatts/my_basket#readme"
+          />
+
+          <Card
+          imageUrl= {'/projects_card.png'}
+          title="Secret Santa"
+          language="Language: Ruby-on-Rails"
+          description="A Secret Santa Generator for fun and festive gifting."
+          plink="https://github.com/SophieMatts/Secret_Santa_App#readme"
+          />
+
+          <Card
+          imageUrl= {'/projects_card.png'}
+          title="To-Do List"
+          language="Language: TypeScript"
+          description="A simple to-do list for any task."
+          plink="https://github.com/SophieMatts/Angular-To-Do-List-"
           />
 
         </div>
