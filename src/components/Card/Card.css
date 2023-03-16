@@ -59,9 +59,17 @@
   width: fit-content;
 }
 
+.card-language {
+  font-family: "Montserrat";
+  font-size: 12px;
+  line-height: 1.5;
+  margin-top: 15px;
+  color: white;
+}
+
 .card-description {
   font-family: "Montserrat";
-  font-size: 15px;
+  font-size: 12px;
   line-height: 1.5;
   margin-top: 10px;
   color: white;

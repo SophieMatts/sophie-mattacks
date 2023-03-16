@@ -18,7 +18,7 @@ class Card extends Component {
         <div className="card-contents | flow">
           <div className="card-contents-container | flow">
             <h2 className="card-title">{title}</h2>
-            <p className="card-description">{language}</p>
+            <p className="card-language">{language}</p>
             <p className="card-description">{description}</p>
           </div>
           <button class="card-button">

@@ -15,7 +15,7 @@ const Projects = () => {
           <Card
           imageUrl= {'/projects_card.png'}
           title="Clarity"
-          language="Language: Ruby-on-Rails"
+          language="Language: Ruby-on-Rails, JavaScript, HTML, SCSS"
           description="A diary for the Neurodiverse."
           plink="https://github.com/arhamzubair00/Clarity_app#readme"
           />
@@ -23,7 +23,7 @@ const Projects = () => {
           <Card
           imageUrl= {'/projects_card.png'}
           title="MyBasket"
-          language="Language: Ruby-on-Rails"
+          language="Language: Ruby-on-Rails, JavaScript, HTML, SCSS"
           description="Shopping list app with Gmail User Sign-In."
           plink="https://github.com/SophieMatts/my_basket#readme"
           />
@@ -31,7 +31,7 @@ const Projects = () => {
           <Card
           imageUrl= {'/projects_card.png'}
           title="Secret Santa"
-          language="Language: Ruby-on-Rails"
+          language="Language: Ruby-on-Rails, JavaScript, HTML, CSS"
           description="A Secret Santa Generator for fun and festive gifting."
           plink="https://github.com/SophieMatts/Secret_Santa_App#readme"
           />
@@ -39,7 +39,7 @@ const Projects = () => {
           <Card
           imageUrl= {'/projects_card.png'}
           title="To-Do List"
-          language="Language: TypeScript"
+          language="Language: TypeScript, JavaScript, HTML, CSS"
           description="A simple to-do list for any task."
           plink="https://github.com/SophieMatts/Angular-To-Do-List-"
           />
