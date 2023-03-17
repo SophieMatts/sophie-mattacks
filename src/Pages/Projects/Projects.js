@@ -44,6 +44,14 @@ const Projects = () => {
           plink="https://github.com/SophieMatts/Angular-To-Do-List-"
           />
 
+          <Card
+          imageUrl= {'/projects_card.png'}
+          title="Portfolio "
+          language="Language: React, JavaScript, HTML, CSS"
+          description="My personal portfolio website."
+          plink="https://github.com/SophieMatts/sophie-mattacks"
+          />
+
         </div>
       </div>
     </>

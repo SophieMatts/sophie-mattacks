@@ -32,10 +32,10 @@
 .card-section-container {
 width: 95%;
 height: 100vh;
+margin-left: 140px;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
-justify-content: center;
 }
 
 /* CARDS */

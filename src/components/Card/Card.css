@@ -7,10 +7,10 @@
   place-items: center;
   width: 80vw;
   max-width: 18rem;
-  height: 25rem;
+  height: 20rem;
   overflow: hidden;
   margin-top: 20px;
-  margin-left: 15px;
+  margin-left: 20px;
   border-radius: 0.625rem;
   box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.25);
 }
@@ -54,7 +54,7 @@
   font-size: 35px;
   font-family: 'AbhayaLibre';
   color: white;
-  line-height: 0.7;
+  line-height: 0.2;
   position: relative;
   width: fit-content;
 }
@@ -63,7 +63,7 @@
   font-family: "Montserrat";
   font-size: 12px;
   line-height: 1.5;
-  margin-top: 15px;
+  margin-top: 20px;
   color: white;
 }
 
@@ -80,7 +80,7 @@
   position: absolute;
   height: 0.3125rem;
   width: calc(100% + 1.25rem);
-  top: 30px;
+  top: 19px;
   left: -1.25rem;
   background-color:#FE7E6D;
 }
