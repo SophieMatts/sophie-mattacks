@@ -1,8 +1,14 @@
 import React from 'react';
+import ContactForm from '../../components/ContactForm/ContactForm';
 
 const Contact = () => {
+
   return (
-    <div class='contact'>Contact - Coming Soon...</div>
+    <div className="contact-container">
+
+      <ContactForm />
+
+    </div>
   );
 };
 

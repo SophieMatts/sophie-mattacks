@@ -1,0 +1,54 @@
+.contact-form-container {
+  width: 60%;
+  height: 60%;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: lightblue;
+}
+
+.form-title {
+  font-family: 'AbhayaLibre';
+  margin-left: 5px;
+  font-size: 40px;
+}
+
+.name-box {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.name-box input {
+  font-family: 'AbhayaLibre';
+  width: 50%;
+}
+
+.email-box {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.email-box input {
+  font-family: 'AbhayaLibre';
+}
+
+
+.message-box {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.message-box textarea {
+  font-family: 'AbhayaLibre';
+}
+
+
+.submit-box {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.submit-box button {
+  font-family: 'AbhayaLibre';
+}
