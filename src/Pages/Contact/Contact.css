@@ -4,5 +4,23 @@
   background-image: url("/public/home_bg.png");
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
+}
+
+
+.contact-content {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.contact-image {
+  background-image: url("/public/mac.png");
+  background-size: cover;
+  width: 50%;
+  height: 80%;
 }

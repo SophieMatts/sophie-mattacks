@@ -6,7 +6,10 @@ const Contact = () => {
   return (
     <div className="contact-container">
 
-      <ContactForm />
+      <div className="contact-content">
+        <ContactForm />
+        <div className="contact-image"></div>
+      </div>
 
     </div>
   );

@@ -22,7 +22,7 @@ const ContactForm = () => {
 
   return (
     <div className="contact-form-container">
-      <form
+      <form className="form"
       action={"https://public.herotofu.com/v1/2eb8f710-c723-11ed-b4ee-9d74f7714d9e"}
         onSubmit={handleSubmit}
         method="POST"
@@ -32,17 +32,19 @@ const ContactForm = () => {
           Let's get in touch...
         </div>
 
-        <div className="name-box">
-          <input type="text" placeholder="Your name" name="name" required />
-        </div>
-        <div className="email-box">
-          <input type="email" placeholder="Email" name="email" required />
-        </div>
-        <div className="message-box">
-          <textarea placeholder="Your message" name="message" required />
-        </div>
-        <div className="submit-box">
-          <button type="submit"> Send a message </button>
+        <div className="form-inputs-container">
+          <div className="name-box">
+            <input type="text" placeholder="Your name" name="name" required />
+          </div>
+          <div className="email-box">
+            <input type="email" placeholder="Email" name="email" required />
+          </div>
+          <div className="message-box">
+            <textarea placeholder="Your message" name="message" required />
+          </div>
+          <div className="submit-box">
+            <button type="submit"> Send a message </button>
+          </div>
         </div>
 
       </form>

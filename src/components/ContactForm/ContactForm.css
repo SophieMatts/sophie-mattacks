@@ -1,54 +1,134 @@
 .contact-form-container {
-  width: 60%;
-  height: 60%;
-  margin-top: 100px;
+  width: 50%;
+  height: 80%;
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: lightblue;
+  background-image: url("/public/terrazzo.png");
+}
+
+.form {
+  width: 95%;
+  height: 95%;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: #F6D0CD;
 }
 
 .form-title {
+  width:100%;
+  height: 10%;
   font-family: 'AbhayaLibre';
-  margin-left: 5px;
-  font-size: 40px;
+  margin-left: 150px;
+  margin-top: 20px;
+  font-size: 45px;
+  color: #FE7E6D;
 }
 
+.form-inputs-container {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  background-color: #F6D0CD;
+}
+
+
+
 .name-box {
-  margin-top: 5px;
-  margin-left: 5px;
+  margin-top: 20px;
+  margin-left: 70px;
+
 }
 
 .name-box input {
   font-family: 'AbhayaLibre';
-  width: 50%;
+  width: 70%;
+  height: 90%;
+  margin-top: 20px;
+  text-indent: 5px;
+  font-size: 20px;
+  outline: none;
+  border: none;
+}
+
+.name-box input:focus,
+.name-box input:active {
+  border-color: transparent;
+  border-bottom: 2px solid #FE7E6D;
+  color: #FE7E6D;
 }
 
 .email-box {
-  margin-top: 5px;
-  margin-left: 5px;
+  margin-top: 20px;
+  margin-left: 70px;
 }
 
 .email-box input {
   font-family: 'AbhayaLibre';
+  width: 70%;
+  height: 90%;
+  margin-top: 20px;
+  text-indent: 5px;
+  font-size: 20px;
+  outline: none;
+  border-color: transparent;
+}
+
+.email-box input:focus,
+.email-box input:active {
+  border-color: transparent;
+  border-bottom: 2px solid #FE7E6D;
+  color: #FE7E6D;
 }
 
 
 .message-box {
-  margin-top: 5px;
-  margin-left: 5px;
+  margin-top: 20px;
+  margin-left: 70px;
 }
 
 .message-box textarea {
   font-family: 'AbhayaLibre';
+  width: 90%;
+  height: 170%;
+  margin-top: 20px;
+  text-indent: 5px;
+  font-size: 20px;
+  outline: none;
+  border-color: transparent;
+}
+
+.message-box textarea:focus,
+.message-box textarea:active {
+  border-color: transparent;
+  border-bottom: 2px solid #FE7E6D;
+  color: #FE7E6D;
 }
 
 
 .submit-box {
-  margin-top: 5px;
-  margin-left: 5px;
+  margin-top: 50px;
+  margin-left: 70px;
 }
 
 .submit-box button {
   font-family: 'AbhayaLibre';
+  color: white;
+  width: 90%;
+  height: 70%;
+  margin-top: 40px;
+  text-indent: 5px;
+  font-size: 25px;
+  background-color: #FE7E6D;
+  outline: none;
+  border-color: transparent;
+  transition-duration: 0.4s;
+}
+
+.submit-box button:hover {
+  background-color: white;
+  color: #FE7E6D;
 }
