@@ -11,6 +11,9 @@ const Projects = () => {
           <div className="p-header">Projects</div>
         </div>
         <div className="card-section-container">
+          <div className="language-header-ruby">
+            <h1>Ruby-On-Rails</h1>
+          </div>
 
           <Card
           imageUrl= {'/projects_card.png'}
@@ -36,13 +39,9 @@ const Projects = () => {
           plink="https://github.com/SophieMatts/Secret_Santa_App#readme"
           />
 
-          <Card
-          imageUrl= {'/projects_card.png'}
-          title="To-Do List"
-          language="Language: TypeScript, JavaScript, HTML, CSS"
-          description="A simple to-do list for any task."
-          plink="https://github.com/SophieMatts/Angular-To-Do-List-"
-          />
+          <div className="language-header-react">
+            <h1>React</h1>
+          </div>
 
           <Card
           imageUrl= {'/projects_card.png'}
@@ -51,6 +50,19 @@ const Projects = () => {
           description="My personal portfolio website."
           plink="https://github.com/SophieMatts/sophie-mattacks"
           />
+
+          <div className="language-header-typescript">
+            <h1>Typescript</h1>
+          </div>
+
+          <Card
+          imageUrl= {'/projects_card.png'}
+          title="To-Do List"
+          language="Language: TypeScript, JavaScript, HTML, CSS"
+          description="A simple to-do list for any task."
+          plink="https://github.com/SophieMatts/Angular-To-Do-List-"
+          />
+
 
         </div>
       </div>

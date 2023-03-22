@@ -1,7 +1,7 @@
 /* PAGE CONTAINER */
 .projects-container {
-  width: 100vw;
-  min-height: 100%;
+  width: 100%;
+  height: 100vh;
   background-image: url("/public/home_bg.png");
   display: flex;
   flex-direction: column;
@@ -28,14 +28,61 @@
   color: white;
 }
 
+
 /*PAGE CARD CONTAINER */
 .card-section-container {
-width: 95%;
-height: 100vh;
-margin-left: 140px;
+width: 100%;
+height: 100%;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
+overflow: auto;
+
+}
+
+.language-header-ruby {
+  width: 100%;
+  height: 8%;
+  background-color: #FE9C7B;
+}
+
+.language-header-ruby h1 {
+  font-family: 'AbhayaLibre';
+  text-indent: 10px;
+  font-size: 45px;
+  color: white;
+}
+
+/* CARDS */
+
+.language-header-react {
+  width: 100%;
+  height: 8%;
+  margin-top: 15px;
+  background-color: #FE9C7B;
+}
+
+.language-header-react h1 {
+  font-family: 'AbhayaLibre';
+  text-indent: 10px;
+  font-size: 45px;
+  color: white;
+}
+
+/* CARDS */
+
+.language-header-typescript {
+  width: 100%;
+  height: 8%;
+  margin-top: 15px;
+  background-color: #FE9C7B;
+}
+
+.language-header-typescript h1 {
+  font-family: 'AbhayaLibre';
+  text-indent: 10px;
+  font-size: 45px;
+  color: white;
 }
 
 /* CARDS */
