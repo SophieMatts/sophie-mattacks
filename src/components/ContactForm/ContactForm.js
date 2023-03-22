@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from 'react-router-dom';
 import './ContactForm.css'
 
 const FORM_ENDPOINT = "https://public.herotofu.com/v1/2eb8f710-c723-11ed-b4ee-9d74f7714d9e";

@@ -6,12 +6,15 @@ const CV = () => {
   return (
     <>
     <div className="cv-container">
-      <div className="cv"></div>
-    </div>
 
+      <div className="cv">
+      </div>
+
+    </div>
     </>
   );
 };
+
 
 
 export default CV;
