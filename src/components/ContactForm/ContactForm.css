@@ -132,3 +132,19 @@
   background-color: white;
   color: #FE7E6D;
 }
+
+.message-sent {
+  width: 80%;
+  height: 20%;
+  margin-left: 11%;
+  margin-bottom: 20px;
+  background-color: #FEB9A9;
+}
+
+.message-sent p {
+  text-indent: 5px;
+  font-size: 30px;
+  font-family: 'AbhayaLibre';
+  margin-top: 25px;
+  color: white;
+}
