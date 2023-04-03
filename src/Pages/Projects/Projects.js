@@ -45,22 +45,18 @@ const Projects = () => {
 
           <Card
           imageUrl= {'/projects_card.png'}
-          title="Portfolio "
+          title="Portfolio"
           language="Language: React, JavaScript, HTML, CSS"
           description="My personal portfolio website."
           plink="https://github.com/SophieMatts/sophie-mattacks"
           />
 
-          <div className="language-header-typescript">
-            <h1>Typescript</h1>
-          </div>
-
           <Card
           imageUrl= {'/projects_card.png'}
-          title="To-Do List"
-          language="Language: TypeScript, JavaScript, HTML, CSS"
-          description="A simple to-do list for any task."
-          plink="https://github.com/SophieMatts/Angular-To-Do-List-"
+          title="To-do List"
+          language="Language: React, JavaScript, HTML, CSS"
+          description="A simple to-do list to add, edit and delete tasks."
+          plink="https://github.com/SophieMatts/React-TodoList#readme"
           />
 
 
