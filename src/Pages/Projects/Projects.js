@@ -59,6 +59,14 @@ const Projects = () => {
           plink="https://github.com/SophieMatts/React-TodoList#readme"
           />
 
+          <Card
+          imageUrl= {'/projects_card.png'}
+          title="Calculator"
+          language="Language: React, JavaScript, HTML, CSS"
+          description="A calculator that handles input changes, user interaction, and complex calculations."
+          plink="https://github.com/SophieMatts/React-Calculator#readme"
+          />
+
 
         </div>
       </div>
