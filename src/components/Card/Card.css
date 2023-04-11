@@ -52,7 +52,7 @@
 }
 
 .card-title {
-  font-size: 35px;
+  font-size: 27px;
   font-family: 'AbhayaLibre';
   color: white;
   line-height: 0.2;
@@ -79,7 +79,7 @@
 .card-title::after {
   content: "";
   position: absolute;
-  height: 0.3125rem;
+  height: 0.15rem;
   width: calc(100% + 1.25rem);
   top: 19px;
   left: -1.25rem;

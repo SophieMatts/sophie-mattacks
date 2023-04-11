@@ -53,6 +53,14 @@ const Projects = () => {
 
           <Card
           imageUrl= {'/projects_card.png'}
+          title="Media-Info-System"
+          language="Language: React, JavaScript, HTML, CSS"
+          description="A Media Information System that displays an easily readable user interface via JSON."
+          plink="https://github.com/SophieMatts/media-info-system#readme"
+          />
+
+          <Card
+          imageUrl= {'/projects_card.png'}
           title="To-do List"
           language="Language: React, JavaScript, HTML, CSS"
           description="A simple to-do list to add, edit and delete tasks."
